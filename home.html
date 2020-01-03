@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stefano</title>
+
+    <script src="jquery-ui-1.12.1/jquery-1.9.1.min.js"></script>
+
+    <link rel= "stylesheet" href= "css/styles.css" type= "text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="funciones.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+    <label id = "logo"><a href="home.html">Stefano</a></label>
+
+    </header>
+    
+    <section class="Seccion" id="Presentacion">
+        <h2>¡Bienvenido! Yo soy </h2>
+        <h1>Stefano Ferrari</h1>
+        <h3>Estudiante de Programación en UTN</h3>
+        <p>El café y la música es mi compañia a la hora de programar, estudié años anteriores <br>
+         Diseño Gráfico en UNSTA, lo cual me ayuda a diseñar el Front-End en una página. <br>
+         Que nunca me falte la birra, mis amigos, la naturaleza y el techno :)</p>
+        <div id="BotonesPresentacion">
+        <button class="btn" id="btnPortfolio">Portfolio</button>
+        <button class="btn" id="btnContratame">Contratame</button>
+        </div>
+        
+    </section>
+
+    <section class="Seccion" id="SobreMi">
+        <h1 class="TituloDefault">Sobre mí</h1>
+        <h2 class="SubtituloDefault">Programador Junior con conocimientos en Diseño Gráfico</h2>
+        <p>En el 2014 comencé mi carrera en Diseño Gráfico, no logré terminarla pero obtuve mucho conocimiento.
+            En 2019 empecé a <br> estudiar Programación y  me enamoré de la programación. Soy una persona abierta a las criticas, 
+            amante del conocimiento<br> y siempre con una sonrisa! Busco trabajo como programador junior, siempre estoy dispuesto a aprender.
+        </p>
+
+        <ul>
+            <span class="level" id="LevelHTML">60</span>
+            <li id="HTML">Html & CSS</li>
+            <span class="level" id="LevelCsharp">60</span>
+            <li id="Csharp">C#</li>
+            <span class="level" id="LevelJavascript">65</span>
+            <li id="Javascript">Javascript</li>
+            <span class="level" id="LevelPhotoshop">87</span>
+            <li id="Photoshop">Photoshop</li>
+        </ul>
+
+        <div id="BotonesSobreMi">
+            <button class="btn" id="btnServicios">Servicios</button>
+            <a href="https://www.linkedin.com/in/stefanoferrari0/" target="_blank" ><button class="btn">LinkedIn</button></a>
+        </div>
+    </section>
+
+    
+    <section class="Seccion" id="Email">
+        <h1>Consulta gratis</h1>
+        <p>¿Necesitas de mis servicios? ¡Contactame!</p>
+        <form action="contacto.php" method="POST" >
+            <input type="text" placeholder = "Nombre y Apellido" name="Nombre" id="Nombre">
+            <input type="email" placeholder = "Email" name="Correo" id="Correo">
+            <input type="submit" value="Enviar" id="Enviar">
+        </form>
+    </section>
+
+    <section class="Seccion" id="Portfolio">
+        <h1 class="TituloDefault">Portfolio</h1>
+        <h2 class="SubtituloDefault">Mis trabajos webs los puedes encontrar aquí, están programados con PHP y Javascript<h2>
+
+        
+        <div id="Proyectos"> 
+            <img class="Gif"src="img/portfolio.gif" alt="Portfolio"> 
+            
+            <img class="Gif"src="img/tp1.jpg" alt="Trabajo Práctico"> 
+        </div>
+        
+    </section>
+
+    <section class="Seccion" id="Servicios">
+        <h1 class="TituloDefault">Servicios</h1>
+        <h2 class="SubtituloDefault">¿Desea algún servicio? ¡Contacteme!</h2>
+
+            <div class = card>
+                            <img src="" alt="">
+                            <h2>PSD a HTML</h2>
+                            <p>Deberá proveerme el <br> archivo PSD y le construiré <br> la página web en base <br> al diseño que usted mandó.</p>              
+            </div>
+
+            <div class = card>
+                    <img src="" alt="">
+                    <h2>Diseño web</h2>
+                    <p>Con respecto a sus <br> necesidades le diseñaré <br> la vista de su página web</p>              
+                </div>
+
+            <div class = card>                 
+                    <img src="" alt="">
+                    <h2>Diseño + <br> Maquetación</h2>
+                    <p>En base a sus necesidades <br> le diseñaré y le maquetaré <br> su página web soñada con las funcionalidades necesarias.</p>              
+                </div>
+    </section>
+
+    
+    <footer>
+        <div id="SocialNetworks"> 
+            <ul id = "social">
+                <li><a  target="_blank" href="http://instagram.com/StefanoFerrari0"><img src="img/instagram.svg" alt="Instagram" style="width: 30px;"></a></li>
+            
+                <li><a target="_blank" href="http://twitter.com/StefanoFerrari0"><img src="img/twitter.svg" style="width: 30px;" alt="Twitter"></a></li>
+            
+                <li><a  target="_blank"href="https://www.linkedin.com/in/stefanoferrari0/"><img src="img/linkedin.png" style="width: 33px;" alt="LinkedIn"></a></li>
+                </ul>
+        </div>
+        <h3>Copyright 2019 Stéfano Ferrari All Rights Reserved</h3>
+    </footer>
+</body>
+</html>
