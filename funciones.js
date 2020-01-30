@@ -1,24 +1,10 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-    $("#btnPortfolio").on("click", function(){
+    $("#btnPortfolio").on("click", function () {
         var posicion = $("#Portfolio").offset().top;
         $("html, body").animate({
             scrollTop: posicion
-        }, 900); 
+        }, 900);
     });
 
-    $("#btnContratame").on("click", function(){
-        var posicion = 1200.875;
-        console.log(posicion);
-        $("html, body").animate({
-            scrollTop: posicion
-        }, 900); 
-    });
-
-    $("#btnServicios").on("click", function(){
-        var posicion = $("#Servicios").offset().top;
-        $("html, body").animate({
-            scrollTop: posicion
-        }, 900); 
-    });
 });

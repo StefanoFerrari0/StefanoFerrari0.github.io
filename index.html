@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stéfano</title>
+
+    <script src="jquery-ui-1.12.1/jquery-1.9.1.min.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <script type="text/javascript" src="funciones.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <label id="logo"><a href="/">Stefano</a></label>
+    </header>
+
+    <section class="Seccion" id="Presentacion">
+        <h2>¡Bienvenido! Yo soy </h2>
+        <h1>Stefano Ferrari</h1>
+        <h3>Estudiante de Programación en UTN</h3>
+        <div class="ParrafoPresentacion">
+            <p>El café y la música es mi compañia a la hora de programar, estudié años anteriores
+                Diseño Gráfico en UNSTA, lo cual me ayuda a diseñar el Front-End en una página.</p>
+        </div>
+        <div id="BotonesPresentacion">
+            <button class="btn" id="btnPortfolio">Mis trabajos</button>
+            <a target="_blank" href="https://www.linkedin.com/in/stefanoferrari0/">
+                <button class="btn" id="btnContratame">LinkedIn</button>
+            </a>
+        </div>
+    </section>
+
+    <section class="Seccion" id="SobreMi">
+        <h1 class="TituloDefault">Sobre mí</h1>
+        <h2 class="SubtituloDefault">Programador Junior con conocimientos en Diseño Gráfico</h2>
+        <div class="ParrafoSobreMi">
+            <p>Soy de Tucumán - Argentina, actualmente estoy en mi segundo y último año en la
+                Tecnicatura Superior en
+                Programacion en UTN. Tengo conocimientos en C#, HTML, CSS y Javascript. En cuestión de Frameworks estoy
+                incursionando y aprendiendo React.
+                Soy una persona abierta a las criticas,
+                amante del conocimiento y siempre con una sonrisa.
+            </p>
+        </div>
+
+        <div id="BotonesSobreMi">
+            <button class="btn">Descargar CV</button>
+            <a href="mailto:stefanoferrari.dev@gmail.com" target="_blank"><button class="btn">Enviar Mail</button></a>
+        </div>
+    </section>
+
+    <section class="Seccion" id="Portfolio">
+        <h1 class="TituloDefault">Portfolio</h1>
+
+        <div class="AndProducciones">
+            <div class="Info">
+                <div class="MarginInfo">
+                    <a target="_blank" href="https://github.com/StefanoFerrari0/andproducciones">
+                        <img class="IconInfo" src="img/code.svg">Código
+                    </a>
+                    <a target="_blank" href="https://stefanoferrari0.github.io/andproducciones/">
+                        <img class="IconInfo" src="img/preview.svg">Proyecto
+                    </a>
+                </div>
+            </div>
+            <p class="ParrafoDefault">Éste proyecto lo realicé con React, también utilicé Firebase como
+                base de datos. Contiene una sección Admin con login y autentificación, en la cual se
+                puede crear/editar/borrar Eventos y/o Artistas y la página se actualizará sola en base a estos cambios.
+                Con respecto al diseño, retraté lo moderno de la música electrónica, haciendo hincapié en lo que
+                representa el subgenero techno, que es el
+                que trae ésta productora de música.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <h2>¡Adios! :)</h2>
+    </footer>
+</body>
+
+</html>
